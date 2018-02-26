@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add users</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="useradd.js"></script>
+    </head>
+    <body>
+        <div>Add users</div>
+        <form id="user">
+            <input type="text" id="firstName" name="firstName" placeholder="First name" />
+            <input type="text" id="lastName" name="lastName" placeholder="Last name" />
+            <button id="submit-button" type="submit">Submit</button>
+        </form>
+        
+        <form id="edit-user">
+            <input type="number" id="edit-id" name="id" placeholder="1"/>
+            <input type="text" id="edit-firstName" name="firstName" placeholder="First name" />
+            <input type="text" id="edit-lastName" name="lastName" placeholder="Last name" />
+            <button id="edit-button" type="submit">Update</button>
+        </form>
+
+        <input type="text" id="id" placeholder="id to delete" value="0">
+        <button id="delete-button" type="button">delete</button>
+        <form>
+            <input type="number" id="by-id" placeholder="0"/>
+            <button id="by-id-button" type="button">Find</button>
+        </form>
+        <h3></h3>
+        <p></p>
+    </body>
+</html>
