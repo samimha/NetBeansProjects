@@ -13,3 +13,18 @@ hs_err_pid*
 
 #mooc execises
 metropolia-metropolia-java1-alm-2017/
+/Timetester/nbproject/private/
+/Timetester/build/
+/RPNCalculator/nbproject/private/
+/RPNCalculator/build/
+/Queue/nbproject/private/
+/Queue/build/
+/Gradlejavatest/build/
+/Gradlejavatest/.nb-gradle/
+/Gradlejavatest2/build/
+/DynamicalList/nbproject/private/
+/DynamicalList/build/
+/web-demo/build/
+/web-demo/.nb-gradle/
+/DoublyLinkedList/nbproject/private/
+/DoublyLinkedList/build/
